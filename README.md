@@ -16,8 +16,15 @@ Finally, an **R-2R ladder Digital-to-Analog Converter (DAC)** reconstructs the o
 
 ```mermaid
 flowchart LR
-    A[Ultrasonic Sensor] --> B[Arduino Uno (Analog Voltage Out)]
-    B --> C[3-bit Flash ADC]
-    C --> D[SG90 Servo Motor (Switch Control)]
-    D --> E[R-2R Ladder DAC]
-    E --> F[Voltmeter (Output Measurement)]
+    A["Ultrasonic Sensor"]
+    B["Arduino Uno (Analog Voltage Out)"]
+    C["3-bit Flash ADC"]
+    D["SG90 Servo Motor (Switch Control)"]
+    E["R-2R Ladder DAC"]
+    F["Voltmeter (Output Measurement)"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
