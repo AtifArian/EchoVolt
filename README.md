@@ -1,6 +1,7 @@
 # ⚡ EchoVolt: Ultrasound Signal Detection and Reconstruction
 
 **EchoVolt** is a complete signal processing project that demonstrates the full cycle of **data acquisition, digital encoding, and analog reconstruction** — bridging physical sensing and embedded systems.
+A project for the CSE350 (Digital Electronics & Pulse Techniques) course.
 
 ---
 
